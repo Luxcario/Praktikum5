@@ -10,7 +10,7 @@ Kelas : TI 22 A1
 |-----|------|-----|
 |1|Latihan5|[Click Here](#latihan5)|
 |2|Praktikum5 |[Click Here](#praktikum5)|
-|3|Flowchart| [Click Here] 
+|3|Flowchart| [Click Here] (#flowchart)|
 
 ## Latihan
 Buat Dictionary daftar kontak
