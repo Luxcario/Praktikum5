@@ -26,6 +26,7 @@ Buat Dictionary daftar kontak
 ### Langkah-langkah :
 1. Buat program terlebih dahulu seperti gambar di bawah ini
 
+```
 daftarKontak = {"nama" : "nomor Telepon"}
 kontak = {'Ari': '081267888', 'Dina' :'087677776'}
 
@@ -81,7 +82,7 @@ print("Hapus kontak Dina")
 kontak.pop('Dina')
 print(kontak.items())
 print(30*"═")                    
-
+````
 
 
 
