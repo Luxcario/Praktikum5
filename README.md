@@ -26,19 +26,65 @@ Buat Dictionary daftar kontak
 ### Langkah-langkah :
 1. Buat program terlebih dahulu seperti gambar di bawah ini
 
-![Lat (1)]
+daftarKontak = {"nama" : "nomor Telepon"}
+kontak = {'Ari': '081267888', 'Dina' :'087677776'}
 
-![Lat (2)]
+
+#print
+print(30*"=")
+print("   nama   |  Nomor Telepon  |")
+print(30 *"-")
+print("   # Ari  | ",kontak['Ari'])
+print("   # Dina | ",kontak['Dina'])
+print(30 * "=")
 
 
-   
+#Tampilkan kontak Ari
+print("Tampilkan kontaknya Ari")
+print("    Ari  | ", kontak['Ari'])
+print(30 * "=")
 
-        
-         
 
-2. Hasil Run 
+#Tambah kontak baru dengan nama Riko, nomor 087654544
+print("Tambah kontak baru dengan nama Riko, nomor 087654544")
+kontak['Riko'] = '087654544'
+print("    Riko    | ", kontak['Riko'])
+print(30*"═")
 
-![Run Praktikum 6]
+
+#Ubah kontak Dina dengan nomor baru 088999776
+print("Ubah kontak Dina dengan nomor baru 088999776")
+kontak['Dina'] = '088999776'
+print("    Dina    | ", kontak['Dina'])
+print(30*"═")
+
+
+#Tampilkan semua Nama
+print("Tampilkan semua nama")
+print(kontak.keys())
+print(30*"═")
+
+
+#Tampilkan semua nomor
+print("Tampilkan semua nomor")
+print(kontak.values())
+print(30*"═")
+
+
+#Tampilkan semua Nama dan Nomornya
+print("Tampilkan semua nama dan nomornya")
+print(kontak.items())
+print(30*"═")
+
+#Hapus kontak Dina
+print("Hapus kontak Dina")
+kontak.pop('Dina')
+print(kontak.items())
+print(30*"═")                    
+
+
+
+
 
 
 ### Penjelasan Program :
