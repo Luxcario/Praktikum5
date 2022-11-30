@@ -8,9 +8,9 @@ Kelas : TI 22 A1
 ## DAFTAR ISI <br>
 | No | Description | Link |
 |-----|------|-----|
-|1|Latihan5|[Click Here](#latihan5)|
-|2|Praktikum5 |[Click Here](#praktikum5)|
-|3|Flowchart| [Click Here] (#flowchart)|
+|1|Latihan5|[Click Here]()|
+|2|Praktikum5 |[Click Here]()|
+|3|Flowchart| [Click Here] (https://github.com/Luxcario/Praktikum5/blob/main/README.md#flowchart)|
 
 ## Latihan
 Buat Dictionary daftar kontak
